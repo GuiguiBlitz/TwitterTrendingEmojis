@@ -31,4 +31,4 @@ val emojiDF = sqlContext.createDataFrame(chars)
 emojiDF.createOrReplaceTempView("emojiTrend")
 
 //whith sparkSql select the result
-%sql SELECT * FROM emojiTrend ORDER BY _2 DESC LIMIT 30
+%sql SELECT * FROM emojiTrend ORDER BY _2 DESC LIMIT 15
