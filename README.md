@@ -3,8 +3,9 @@ A small implementation of Spark Streaming + Apache Zeppelin to find trending emo
 
 Libraries
 ---------------------
-+ Apache Zeppelin  0.6.2 
-+ Spark 2.0.0
++ Apache Zeppelin  0.6.2
++ Apache Parquet 1.9
++ Apache Spark 2.0.0
 + Bahir Spark-streaming-twitter 2.0.0
 
 
